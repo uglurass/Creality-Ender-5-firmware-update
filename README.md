@@ -6,3 +6,7 @@ updating the firmware in Ender 5 plus needs renaming 2 files before flashing.
 I needed to go into the DWIN_SET folder on the SD card and rename two .bin files which use Chinese (Hanzai) text.
 13触控配置文件.bin renamed to 13_C_Touchprofiles.bin
 14变量配置文件.bin renamed to 14_C_Variableconfigurationfiles.bin
+
+Calibrate extruder steps via gcode in pronterface
+read EXX.xx feed the filament 100mm via program if its short add value or retract for result 
+M92 X80.00 Y80.00 Z800.00 E92.60
